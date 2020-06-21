@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MovieLocalModel" representedClassName="MovieLocalModel" syncable="YES">
+        <attribute name="movieId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="movieName" optional="YES" attributeType="String"/>
+        <attribute name="moviePosterPath" optional="YES" attributeType="String"/>
+        <attribute name="movieRating" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="movieReleaseDate" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="MovieLocalModel" positionX="-63" positionY="-18" width="128" height="118"/>
+    </elements>
+</model>

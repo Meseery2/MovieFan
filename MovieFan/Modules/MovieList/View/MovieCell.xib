@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="gTV-IL-0wX" customClass="MovieCollectionViewCell" customModule="MovieFan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="244" height="320"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="244" height="320"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="movie_avenger_endgame" translatesAutoresizingMaskIntoConstraints="NO" id="ehi-TX-hN5">
+                        <rect key="frame" x="0.0" y="0.0" width="244" height="320"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6LD-nm-uLo">
+                        <rect key="frame" x="0.0" y="0.0" width="244" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="0.80084176936619722" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQu-bk-d84">
+                        <rect key="frame" x="8" y="261" width="229" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="C7C-RS-s4e"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tB-J4-1ig">
+                        <rect key="frame" x="134" y="292" width="103" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6yZ-Zx-bQl">
+                        <rect key="frame" x="8" y="292" width="100" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="WsO-qP-XxH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ci4-Ba-o8a">
+                        <rect key="frame" x="192" y="10" width="40" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="o17-PF-LYP"/>
+                        </constraints>
+                        <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                        <state key="normal" image="ic_fav_normal"/>
+                        <state key="selected" image="ic_fav"/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="ehi-TX-hN5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="5tK-6G-pQh"/>
+                <constraint firstAttribute="trailing" secondItem="3tB-J4-1ig" secondAttribute="trailing" constant="7" id="JyI-MV-pDz"/>
+                <constraint firstItem="6yZ-Zx-bQl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="P5s-cx-XMA"/>
+                <constraint firstItem="3tB-J4-1ig" firstAttribute="bottom" secondItem="6yZ-Zx-bQl" secondAttribute="bottom" id="PMh-gU-HSj"/>
+                <constraint firstItem="3tB-J4-1ig" firstAttribute="height" secondItem="6yZ-Zx-bQl" secondAttribute="height" id="QHp-zv-OEu"/>
+                <constraint firstItem="YQu-bk-d84" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Qdo-VV-KKl"/>
+                <constraint firstAttribute="bottom" secondItem="6yZ-Zx-bQl" secondAttribute="bottom" constant="10" id="Uhf-gr-YSb"/>
+                <constraint firstItem="ehi-TX-hN5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dIS-pW-J40"/>
+                <constraint firstAttribute="bottom" secondItem="ehi-TX-hN5" secondAttribute="bottom" id="dgU-0c-EPV"/>
+                <constraint firstItem="6yZ-Zx-bQl" firstAttribute="top" secondItem="YQu-bk-d84" secondAttribute="bottom" constant="10" id="eao-Ve-KEs"/>
+                <constraint firstAttribute="trailing" secondItem="ci4-Ba-o8a" secondAttribute="trailing" constant="12" id="fmw-HJ-WX5"/>
+                <constraint firstAttribute="trailing" secondItem="ehi-TX-hN5" secondAttribute="trailing" id="mhH-k5-9CR"/>
+                <constraint firstItem="ci4-Ba-o8a" firstAttribute="width" secondItem="ci4-Ba-o8a" secondAttribute="height" multiplier="1:1" constant="1" id="qWP-mM-rVM"/>
+                <constraint firstAttribute="trailing" secondItem="YQu-bk-d84" secondAttribute="trailing" constant="7" id="qd8-3d-9nE"/>
+                <constraint firstItem="ci4-Ba-o8a" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="vFS-2g-wKO"/>
+                <constraint firstItem="3tB-J4-1ig" firstAttribute="leading" secondItem="6yZ-Zx-bQl" secondAttribute="trailing" constant="26" id="z5i-4u-T89"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="140" height="200"/>
+            <connections>
+                <outlet property="layerView" destination="6LD-nm-uLo" id="2BK-09-fDS"/>
+                <outlet property="movieFavouriteButton" destination="ci4-Ba-o8a" id="fV9-dk-K1n"/>
+                <outlet property="moviePosterImage" destination="ehi-TX-hN5" id="b5N-V5-SWh"/>
+                <outlet property="movieRatingLabel" destination="3tB-J4-1ig" id="Hkn-th-39d"/>
+                <outlet property="movieReleaseDateLabel" destination="6yZ-Zx-bQl" id="4ix-M8-5qx"/>
+                <outlet property="movieTitleLabel" destination="YQu-bk-d84" id="76k-IB-r7H"/>
+            </connections>
+            <point key="canvasLocation" x="202.89855072463769" y="102.45535714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_fav" width="36" height="36"/>
+        <image name="ic_fav_normal" width="36" height="36"/>
+        <image name="movie_avenger_endgame" width="714" height="1119"/>
+    </resources>
+</document>
